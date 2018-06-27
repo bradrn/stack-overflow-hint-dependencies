@@ -1,0 +1,14 @@
+name:                stack-overflow-hint-dependencies
+version:             0.1.0.0
+license:             BSD3
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable stack-overflow-hint-dependencies
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , finite-typelits >= 0.1 && < 0.2
+                     , hint >= 0.7 && < 0.8
